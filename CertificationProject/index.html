@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Certification Project</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<h1 id="title">Certification Project - freeCodeCamp Survey Form</h1>
+		<p id="description">
+			Please fill this form to continue the Road2Remote - Thanks
+		</p>
+		<form id="survey-form" method="post" action="">
+			<fieldset>
+				<p class="txtsub">Input your text / number</p>
+				<label id="name-label" for="name"
+					>Enter Your Name:
+					<input
+						id="name"
+						name="name"
+						type="text"
+						required
+						placeholder="Enter Your Name"
+				/></label>
+
+				<label id="email-label" for="email"
+					>Enter Your Email:
+					<input
+						id="email"
+						name="email"
+						type="email"
+						required
+						placeholder="Enter Your Valid Email"
+				/></label>
+				<label id="number-label" for="number"
+					>Enter a number:
+					<input
+						id="number"
+						type="number"
+						name="number"
+						min="1"
+						max="20"
+						placeholder="Enter only number 1...20"
+				/></label>
+
+				<label for="referrer"
+					>Select one Option!
+					<select id="dropdown" name="dropdown ">
+						<option value="">(select one)</option>
+						<option value="1">Option 1</option>
+						<option value="2">Option 2</option>
+						<option value="3">Option 3</option>
+						<option value="4">Option 4</option>
+					</select>
+				</label>
+				<p class="txtsub">Select One option</p>
+				<label for="cardinal1"
+					><input
+						id="cardinal1"
+						type="radio"
+						name="cardinal"
+						class="inline"
+						value="1" />
+					First</label
+				>
+				<label for="cardinal2"
+					><input
+						id="cardinal2"
+						type="radio"
+						name="cardinal"
+						class="inline"
+						value="2" />
+					Second</label
+				>
+				<label for="cardinal3"
+					><input
+						id="cardinal3"
+						type="radio"
+						name="cardinal"
+						class="inline"
+						value="3" />
+					Third</label
+				>
+				<p class="txtsub">Select Multiple option</p>
+				<label for="check1">
+					<input
+						id="check1"
+						type="checkbox"
+						name="check1"
+						class="inline"
+						value="1" />Check Number 1</label
+				>
+				<label for="check2">
+					<input
+						id="check2"
+						type="checkbox"
+						name="check2"
+						class="inline"
+						value="1" />Check Number 2</label
+				>
+				<label for="check3">
+					<input
+						id="check3"
+						type="checkbox"
+						name="check3"
+						class="inline"
+						value="1" />Check Number 3</label
+				>
+				<label for="check4">
+					<input
+						id="check4"
+						type="checkbox"
+						name="check4"
+						class="inline"
+						value="4" />Check Number 4</label
+				>
+				<label for="check5">
+					<input
+						id="check5"
+						type="checkbox"
+						name="check5"
+						class="inline"
+						value="5" />Check Number 5</label
+				>
+				<label for="check6">
+					<input
+						id="check6"
+						type="checkbox"
+						name="check6"
+						class="inline"
+						value="6" />Check Number 6</label
+				>
+				<label for="check7">
+					<input
+						id="check7"
+						type="checkbox"
+						name="check7"
+						class="inline"
+						value="7" />Check Number 7</label
+				>
+				<p class="txtsub">Additional comments</p>
+				<label for="addcomments"
+					>Comments? :
+					<textarea
+						id="addcomments"
+						name="addcomments"
+						rows="3"
+						cols="30"
+						placeholder="Additional comments..."></textarea>
+				</label>
+			</fieldset>
+
+			<input id="submit" type="submit" value="Submit" />
+		</form>
+	</body>
+</html>
